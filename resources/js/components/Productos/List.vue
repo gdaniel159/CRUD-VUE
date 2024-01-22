@@ -1,7 +1,7 @@
 <template>
   <div>
     <h1>Administracion de productos</h1>
-    <table  class="table text-center">
+    <table class="table table-bordered table-striped table-hover text-center mt-3">
       <thead class="table-dark">
         <tr>
           <th>ID</th>

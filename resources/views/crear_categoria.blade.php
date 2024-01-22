@@ -1,17 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Creacion del producto</title>
-    @vite('resources/js/crear_categoria.js')
-</head>
-
-<body>
-    <div id="crear_categoria">
-
-    </div>
-</body>
-
-</html>
+@extends('layouts.landing')
+@section('title','Contacto')
+@section('resouce')
+@vite('resources/js/crear_categoria.js')
+@endsection
+@section('content')
+<div id="crear_categoria">
+</div>
+@endsection
